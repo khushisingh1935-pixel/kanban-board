@@ -57,15 +57,15 @@ The project focuses on learning **React state management, reusable components, d
 
 ### Drag and Drop
 
-![Drag Drop](screenshots/drag-drop.png)
+![Drag Drop](screenshots/drag-and-drop.png)
 
 ### Search Tasks
 
-![Search](screenshots/search.png)
+![Search](screenshots/search-task.png)
 
 ### Task Priority
 
-![Priority](screenshots/priority.png)
+![Priority](screenshots/priority-badge.png)
 
 ---
 
