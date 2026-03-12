@@ -1,4 +1,4 @@
-function TaskCard({title, description, onDelete, onEdit, onDragStart, index}){
+function TaskCard({title, description, priority, onDelete, onEdit, onDragStart, index}){
 
 return(
 <div 
@@ -9,7 +9,7 @@ return(
 
 <h3>{title}</h3>
 <p>{description}</p>
-
+<p className={`priority ${priority}`}>{priority}</p>
 <div className="task-btn">
 <button onClick = {onEdit}>Edit Task</button>
 <button onClick={onDelete}>Delete Task</button>
