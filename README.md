@@ -1,16 +1,63 @@
-# React + Vite
+# Kanban Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Kanban-style task manager built using React. This application allows users to organize tasks across different stages such as **To Do**, **In Progress**, **Done**, and **Backlog**.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://kanban-board-lilac-kappa.vercel.app/
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add tasks with title, description, and priority
+* Edit and delete tasks
+* Drag and drop tasks between columns
+* Search tasks by title or description
+* Priority levels (Low, Medium, High)
+* Data persistence using browser LocalStorage
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* CSS
+* Vite
+
+## Screenshots
+
+### Kanban Board
+
+![Board](screenshots/board.png)
+
+### Add Task
+
+![Add Task](screenshots/add-task.png)
+
+### Drag and Drop
+
+![Drag Drop](screenshots/drag-drop.png)
+
+### Search Tasks
+
+![Search](screenshots/search.png)
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/kanban-project.git
+
+Navigate to the project folder:
+
+cd kanban-project
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+## Author
+
+Khushi
